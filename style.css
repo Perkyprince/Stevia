@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: rgba(199, 184, 175, .5);
+  color:#0af;
+}
+.navbar-brand{
+  font-weight: bold;
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 36px;
+  width: auto;
+  height: auto;
+  position: relative;
+  color: #2D9CDB;
+  margin: 5px auto 5px 20px;
+}
+
+.container{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    padding-top: 300px;    
+    padding-right: 100%;
+    color: black;
+    position: absolute;
+    background-image: url(https://images.pexels.com/photos/574070/pexels-photo-574070.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
+}
+.main{
+  text-align: left;
+  line-height: normal;
+  font-weight: bold;
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 48px;
+  width: 494px;
+  height: 60px;
+  top: 100px;
+  left: 110px;
+  position: absolute;
+}
+p{
+  text-align: left;
+  line-height: normal;
+  font-weight: lighter;
+  font-family: Roboto;
+  font-style: italic;
+  font-size: 24px;
+  width: 452px;
+  height: 52px;
+  top: 150px;
+  left: 110px;
+  position: absolute;
+  }
+.time{
+  position: absolute;
+  height: 60px;
+  width: 400px;
+  padding-top: 40px;
+  padding-left: 30px;
+  font-weight: bold;
+  font-family: Roboto;
+  font-size: 64px;
+  left: 150px;
+  top: 200px;
+  color: black; 
+}
+.date{
+  position: absolute;
+  height: 60px;
+  width: 400px;
+  padding-top: 40px;
+  padding-left: 30px;
+  font-weight: light;
+  font-family: Roboto;
+  font-style: italic;
+  font-size: 24px;
+  left: 170px;
+  top: 280px;
+  color: black; 
+}
